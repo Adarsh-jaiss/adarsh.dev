@@ -1,0 +1,54 @@
+{
+  "experiences": [
+    {
+      "company": "Memphis.Dev",
+      "link": "https://github.com/memphisdev",
+      "title": "Open Source contributer",
+      "duration": "Sept 22 - Present ",
+      "desc": [
+        "Added Documentation to the Python SDK for improved user experience.",
+        "Fixed multiple bugs in the Memphis dev python-client.",
+        "Improved code quality using pylint for better understanding of code.",
+        "Skills: Python (Programming Language) ·"
+      ]
+    },
+    {
+      "company": "The Internet Folks",
+      "link": "/",
+      "title": "Developer advocate intern",
+      "duration": "Nov 22 - Dec 22",
+      "desc": [
+        "Collaborated with the developer community to enhance product awareness and adoption.",
+        "Engaged with developers on social media platforms and forums to build and nurture a strong developer community.",
+        "Actively engaged with the developer community through forums, social media, and events to foster relationships and gather feedback."
+      ]
+    }
+    
+  ],
+  "projects": [
+    {
+      "title": "Book My Hotel",
+      "image": "./images/lexical.png",
+      "desc": "Using Book my hotel you can easily find and book hotels anywhere in the world. It has Seamlessly managed bookings with CRUD operations, enhanced reliability through database migration, and achieved optimal deployment flexibility using Docker",
+      "skills": ["Gofiber", "MongoDB", "Docker", ""],
+      "github": "https://github.com/Adarsh-jaiss/GO-Hotel-reservation",
+      "link": ""
+    },
+    {
+      "title": "TollCraft",
+      "image": "./images/anime.jpg",
+      "desc": "An anime search engine built on Reactjs to search all kinds of anime (movies or series). It displays Top 10 trending animes and also shows the result od desired keyword.",
+      "skills": ["React", "CSS", "Javascript"],
+      "github": "",
+      "link": ""
+    },
+    {
+      "title": "Face Recognition Attendance System",
+      "image": "./images/face.jpg",
+      "desc": "A python-based student attendance system to mark students' attendance, demonstrating face recognition technology through python using OpenCV and other librarie",
+      "skills": ["Python", "OpenCV", "Face Recognition"],
+      "github": "",
+      "link": ""
+    }
+  ]
+}
