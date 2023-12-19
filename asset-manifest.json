@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/adarsh.dev/static/css/main.a25bd365.css",
+    "main.js": "/adarsh.dev/static/js/main.e20d1f4b.js",
+    "index.html": "/adarsh.dev/index.html",
+    "main.a25bd365.css.map": "/adarsh.dev/static/css/main.a25bd365.css.map",
+    "main.e20d1f4b.js.map": "/adarsh.dev/static/js/main.e20d1f4b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a25bd365.css",
+    "static/js/main.e20d1f4b.js"
+  ]
+}
