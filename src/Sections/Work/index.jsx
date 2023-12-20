@@ -13,7 +13,7 @@ function Work() {
 					index % 2 === 0 ? (
 						<div className={styles.project}>
 							<div className={styles.left}>
-								<a href={project.link} target="__blank">
+								<a href={project.github} target="">
 									<img
 										src={project.image}
 										className={styles.img}
@@ -22,7 +22,7 @@ function Work() {
 								</a>
 							</div>
 							<div className={styles.right}>
-								<a href={project.link} className={styles.heading}>
+								<a href={project.github} className={styles.heading}>
 									{project.title}
 								</a>
 								<p className={styles.desc}>{project.desc}</p>
@@ -32,10 +32,10 @@ function Work() {
 									))}
 								</div>
 								<div>
-									<a href="/" className={styles.link}>
+									<a href="https://github.com/adarsh-jaiss/GO-Hotel-reservation" className={styles.github}>
 										<GitHubIcon />
 									</a>
-									<a href="/" className={styles.link}>
+									<a href="https://github.com/adarsh-jaiss/GO-Hotel-reservation" className={styles.github}>
 										<OpenInNewIcon />
 									</a>
 								</div>
@@ -44,7 +44,7 @@ function Work() {
 					) : (
 						<div className={styles.project}>
 							<div className={styles.left}>
-								<a href={project.link} className={styles.heading}>
+								<a href={project.github} className={styles.heading}>
 									{project.title}
 								</a>
 								<p className={styles.desc}>{project.desc}</p>
@@ -54,16 +54,16 @@ function Work() {
 									))}
 								</div>
 								<div>
-									<a href="/" className={styles.link}>
+									<a href="/" className={styles.github}>
 										<GitHubIcon />
 									</a>
-									<a href="/" className={styles.link}>
+									<a href="/" className={styles.github}>
 										<OpenInNewIcon />
 									</a>
 								</div>
 							</div>
 							<div className={styles.right}>
-								<a href={project.link} target="__blank">
+								<a href={project.github} target="__blank">
 									<img
 										src={project.image}
 										className={styles.img}
